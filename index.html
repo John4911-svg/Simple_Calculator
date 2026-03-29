@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculation_display">
+        <p id="calculator_Display">READY</p>
+      </div>
+      <div class="button_div">
+        <button onclick="button_click(1)">1</button>
+        <button onclick="button_click(2)">2</button>
+        <button onclick="button_click(3)">3</button>
+        <button onclick="button_click(4)">4</button>
+      </div>
+      <div class="button_div">
+        <button onclick="button_click(5)">5</button>
+        <button onclick="button_click(6)">6</button>
+        <button onclick="button_click(7)">7</button>
+        <button onclick="button_click(8)">8</button>
+      </div>
+      <div class="button_div">
+        <button onclick="button_click(9)">9</button>
+        <button onclick="button_click(0)">0</button>
+        <button onclick="button_click('+')">+</button>
+        <button onclick="button_click('-')">-</button>
+      </div>
+      <div class="button_div">
+        <button onclick="button_click('*')">*</button>
+        <button onclick="button_click('/')">/</button>
+        <button onclick="button_click('DEL')">DEL</button>
+        <div class="button_div">
+          <button onclick="calculate()">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>
